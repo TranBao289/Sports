@@ -92,13 +92,14 @@
 }
 .sub-menu{
     margin: 0px;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     list-style: none;   
-    position: relative;
+    position: absolute;
     text-decoration: none;
     color: black;
     display: none;
+    z-index: 900;
     
     
 }
@@ -131,7 +132,6 @@
 }
 .sub-menu>li>a{
     text-align: center;
-    border: 1px solid rgb(255, 174, 0);
     padding-left: 1rem;
     padding-right: 1rem;
     cursor: pointer;
